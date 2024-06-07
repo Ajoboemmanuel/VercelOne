@@ -1,11 +1,11 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
 
 const Navbar = () => {
-    const spans = gsap.utils.toArray(".span")
-    // console.log(spans)
+    
+
     useGSAP(() => {
         let tl = gsap.timeline()
         tl.from(".spans", {

@@ -1,4 +1,4 @@
-"use client"
+
 import Navbar from "@/app/Component/Navbar.jsx"
 import Intro from "@/app/Component/Intro.jsx"
 import About from "@/app/Component/About.jsx"
@@ -6,6 +6,7 @@ import HeroThree from "@/app/Component/HeroThree.jsx"
 import MyName from "@/app/Component/Name.jsx"
 import Skills from "@/app/Component/Skill.jsx"
 import Footer from "@/app/Component/Footer.jsx"
+
 import React from 'react'
 
 
@@ -19,9 +20,10 @@ const Parent = () => {
           <HeroThree />
         </div>
 
-        <div>
+         <div>
           <Navbar />
         </div>
+
         <div>
           <MyName />
         </div>
@@ -39,7 +41,8 @@ const Parent = () => {
 
         <div>
           <Footer />
-        </div>
+        </div> 
+        
       </div>
 
     </>

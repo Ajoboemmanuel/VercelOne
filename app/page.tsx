@@ -1,17 +1,18 @@
+"use client"
 import React from 'react'
-import Parent from '@/app/Parent.jsx'
+import Parent from './Parent.jsx'
 
-const page = () => {
+const Page = () => {
   return (
     <>
     
       <div>
         <Parent />
       </div>
-      
+  
     
     </>
   )
 }
 
-export default page
+export default Page

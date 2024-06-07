@@ -13,7 +13,6 @@ const HeroThree = () => {
       <Canvas>
         <pointLight position={[1, 3, 1]} intensity={5}/>
         <ambientLight intensity={.5} />
-
         <Avater />
       </Canvas>
 
