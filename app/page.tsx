@@ -1,17 +1,14 @@
 import React from 'react'
-import Parent from './Parent'
+import Parent from '@/app/Parent'
 
 const page = () => {
   return (
     <>
     
-      {/* <div>
+      <div>
         <Parent />
       </div>
-       */}
-      <h1>
-        Hello WOrld
-      </h1>
+      
     
     </>
   )

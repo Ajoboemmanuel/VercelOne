@@ -1,6 +1,5 @@
 "use client"
 import Navbar from "@/app/Component/Navbar.jsx"
-import Hero from "@/app/Component/Hero.jsx"
 import Intro from "@/app/Component/Intro.jsx"
 import About from "@/app/Component/About.jsx"
 import HeroThree from "@/app/Component/HeroThree.jsx"
