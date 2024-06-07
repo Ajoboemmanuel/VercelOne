@@ -5,10 +5,13 @@ const page = () => {
   return (
     <>
     
-      <div>
+      {/* <div>
         <Parent />
       </div>
-    
+       */}
+      <h1>
+        Hello WOrld
+      </h1>
     
     </>
   )
