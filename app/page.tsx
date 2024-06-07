@@ -1,5 +1,5 @@
 import React from 'react'
-import Parent from '@/app/Parent'
+import Parent from '@/app/Parent.jsx'
 
 const page = () => {
   return (
